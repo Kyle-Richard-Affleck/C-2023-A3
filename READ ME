@@ -1,0 +1,11 @@
+This set of code is designed to isolate dust contribution in ion emissions.
+The empirical reduction produces both reduced images using a standard bias subtraction and flat field division of the raw
+data. 
+A centroid aligning algorithim is used to overlay dust and ion images correctly before dust removal using the coma and nucleus
+as a centering structure.
+Radial and tangential profiles along the antio solar radial direction from the centroid are computed.
+The OSN Transission Spectra has code needed to plot the transmission spectra of the OSN and wavelengths found in Comet deVico
+This set of code also plots the trajectory of the comet around the Sun using a heliocentric center
+With calculation of A(0 degrees)frho to A(alpha degrees)frho, where alpha is the phase angle of the Sun, comet and Earth from JPL Hoirzons System
+Empheris data.
+The code also produces plots of the Sun and comet's position in the night sky during the observation window of 18th Oct 2024 to 23rd Nov 2024
